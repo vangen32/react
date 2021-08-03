@@ -1,0 +1,28 @@
+.wrapper{
+    width: max-content;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.data-view{
+    display: flex;
+}
+.cart{
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    animation:an 1s 0s both ease-in-out;
+    margin: 5px;
+}
+.location{
+    font-size: 20px;
+}
+
+@keyframes an{
+    0%{
+        background-color: violet;
+    }
+    100%{
+        background-color: sienna;
+    }
+}
